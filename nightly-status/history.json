@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T06:35:45.183420+00:00",
+  "last_updated": "2026-11-01T18:07:42.745024+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-11-01",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/SpotTheKitty/pytorch-tensordict/actions/runs/41280137209",
       "orchestrator_run_id": 41280137209,
       "workflows": {
