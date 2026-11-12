@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T18:07:03.199004+00:00",
+  "last_updated": "2026-11-12T06:35:55.622448+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -10,15 +10,62 @@
       "success_rate": 100.0
     },
     "last_30_days": {
-      "days": 27,
-      "runs_with_data": 20,
-      "total_workflow_runs": 100,
-      "total_success": 100,
+      "days": 28,
+      "runs_with_data": 21,
+      "total_workflow_runs": 105,
+      "total_success": 105,
       "total_failure": 0,
       "success_rate": 100.0
     }
   },
   "history": [
+    {
+      "date": "2026-11-12",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/SpotTheKitty/pytorch-tensordict/actions/runs/43167033209",
+      "orchestrator_run_id": 43167033209,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/SpotTheKitty/pytorch-tensordict/actions/runs/43167033209/job/131011207469",
+          "display_name": "Linux Tests"
+        },
+        "test-macos.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/SpotTheKitty/pytorch-tensordict/actions/runs/43167033209/job/131011207006",
+          "display_name": "MacOS Tests"
+        },
+        "test-rl-gpu.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/SpotTheKitty/pytorch-tensordict/actions/runs/43167033209/job/131011206946",
+          "display_name": "RL GPU Tests"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/SpotTheKitty/pytorch-tensordict/actions/runs/43167033209/job/131011206889",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/SpotTheKitty/pytorch-tensordict/actions/runs/43167033209/job/131011206761",
+          "display_name": "Benchmarks"
+        }
+      },
+      "summary": {
+        "total": 5,
+        "success": 5,
+        "failure": 0,
+        "skipped": 0,
+        "other": 0,
+        "success_rate": 100.0
+      }
+    },
     {
       "date": "2026-11-11",
       "orchestrator_ran": true,
